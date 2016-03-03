@@ -1,14 +1,14 @@
 //
-//  NSString+IMEIValidation.m
-//  IMEI-Validation-Demo
+//  NSString+IMEIValidator.m
+//  IMEI-Validator-Demo
 //
 //  Created by Vincent on 1/26/16.
 //  Copyright © 2016 Vincent. All rights reserved.
 //
 
-#import "NSString+IMEIValidation.h"
+#import "NSString+IMEIValidator.h"
 
-@implementation NSString (IMEIValidation)
+@implementation NSString (IMEIValidator)
 - (BOOL)validateIMEI {
     if (![self consistsOf15NumbersOnly]) {
         return NO;

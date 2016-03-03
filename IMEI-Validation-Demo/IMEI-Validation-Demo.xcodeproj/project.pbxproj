@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0457CB3A1C576DD9003FC4A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457CB391C576DD9003FC4A5 /* main.m */; };
-		0457CB421C576DF3003FC4A5 /* NSString+IMEIValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457CB411C576DF3003FC4A5 /* NSString+IMEIValidation.m */; };
+		0457CB421C576DF3003FC4A5 /* NSString+IMEIValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0457CB411C576DF3003FC4A5 /* NSString+IMEIValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		0457CB361C576DD9003FC4A5 /* IMEI-Validation-Demo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "IMEI-Validation-Demo"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0457CB391C576DD9003FC4A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0457CB401C576DF3003FC4A5 /* NSString+IMEIValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMEIValidation.h"; sourceTree = "<group>"; };
-		0457CB411C576DF3003FC4A5 /* NSString+IMEIValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMEIValidation.m"; sourceTree = "<group>"; };
+		0457CB401C576DF3003FC4A5 /* NSString+IMEIValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IMEIValidator.h"; sourceTree = "<group>"; };
+		0457CB411C576DF3003FC4A5 /* NSString+IMEIValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IMEIValidator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0457CB391C576DD9003FC4A5 /* main.m */,
-				0457CB401C576DF3003FC4A5 /* NSString+IMEIValidation.h */,
-				0457CB411C576DF3003FC4A5 /* NSString+IMEIValidation.m */,
+				0457CB401C576DF3003FC4A5 /* NSString+IMEIValidator.h */,
+				0457CB411C576DF3003FC4A5 /* NSString+IMEIValidator.m */,
 			);
 			path = "IMEI-Validation-Demo";
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0457CB421C576DF3003FC4A5 /* NSString+IMEIValidation.m in Sources */,
+				0457CB421C576DF3003FC4A5 /* NSString+IMEIValidator.m in Sources */,
 				0457CB3A1C576DD9003FC4A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +243,7 @@
 				0457CB3F1C576DD9003FC4A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
